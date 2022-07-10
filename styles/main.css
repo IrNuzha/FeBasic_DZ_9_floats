@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+:root {
+    --dark_gray: #C4C4C4;
+    --gray: #E6E6E6;
+    --pink: #FC8F8F;
+    --white: #FFFFFF;
+    --box_lg: 200px;
+    --box_lt: 100px;
+    --size_txt_lg: 64px;
+    --size_txt_lt: 36px;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.main {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page-wrap {
+    background-color: var(--dark_gray);
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.container {
+    max-width: 1000px;
+    background-color: var(--gray);
+    clear: both;
+    overflow: hidden;
+}
+
+.large-box {
+    background-color: var(--pink);
+    min-width: var(--box_lg);
+    min-height: var(--box_lg);
+    color: var(--white);
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--size_txt_lg);
+}
+
+.little-box {
+    background-color: var(--pink);
+    min-width: var(--box_lt);
+    min-height: var(--box_lt);
+    color: var(--white);
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--size_txt_lt);
+    float: left;
+    margin-left: 15px;
+}
+
+.left-direction {
+    float: left;
+    margin-right: 15px;
+}
+
+.right-direction {
+    float: right;
+}
+
+.margin {
+    margin: 50px 0 50px 0;
+}
